@@ -7,10 +7,20 @@ const Footer = () => {
 <div className='projectContainer'>
 
 <div className='projectVideo'>
-<video width="100%" height="100%" controls>
+{/* <video width="100%" height="100%" controls>
         <source src={first} type="video/mp4" />
         Your browser does not support the video tag.
-        </video>
+        </video> */}
+
+<iframe
+        width="800"
+        height="415"
+        src="https://www.youtube.com/embed/Jp5VIOMmTuU"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
 </div>
 
 <div className='projectText'>

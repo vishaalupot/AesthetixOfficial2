@@ -356,7 +356,7 @@ font-weight: 500;
 }
 .lineTop {
   stroke-dasharray: 40 40;
-  stroke-dashoffset: 25;
+  /* stroke-dashoffset: 25; */
 }
 .lineBottom {
   stroke-dasharray: 40 40;

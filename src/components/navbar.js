@@ -44,7 +44,7 @@ const Navbar = () => {
         </NavItem>
       <div class="hamburger">
         <input class="checkbox" type="checkbox" />
-        <svg fill="none" viewBox="0 0 50 50" height="50" width="50">
+        <svg fill="none" viewBox="0 0 50 50" height="40" width="40">
           <path
             class="lineTop line"
             stroke-linecap="round"
@@ -87,8 +87,8 @@ const NavItem = ({ title, children }) => {
         {title}
         <div className="arrow">
           <svg
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             strokeWidth="1.5"
             viewBox="0 0 24 24"
             fill="none"
