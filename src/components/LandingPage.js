@@ -10,10 +10,10 @@ const LandingPage = () => {
         <div>
             <div className='h-[93vh] w-[100vw]  flex items-end'>
                 <div className='relative w-full h-full'>
-                    <video autoPlay loop muted className='mainVideo absolute inset-0 object-cover w-full h-80vh'>
+                    <video autoPlay loop muted className='mainVideo absolute inset-0 object-cover w-full h-[100vh]'>
                         <source src={avideo1} type='video/mp4' />
                     </video>
-                    <div className='relative text-white shadow mt-[25%] z-20'>
+                    {/* <div className='relative text-white shadow mt-[25%] z-20'>
                         <div className='text-[2.3em] ml-32 font-semibold w-[600px] mb-2'>
                             <div className='mb-[-10px]'>CONNECTING PEOPLE</div>
                             <div>THROUGH INNOVATION</div>
@@ -21,7 +21,7 @@ const LandingPage = () => {
                         <div className='mb-14 ml-32 w-[700px] text-[1.4em]'>
                             Aesthetix is passionate about delivering collaborative audiovisual solutions to enhance the way we work, learn, and live.
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div>
